@@ -1,0 +1,22 @@
+
+# SAT-SA MVP — Python dependencies
+# Install with: pip install -r requirements.txt
+# Tested with Python 3.12+
+
+# ── Web framework ──────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ── Data handling ──────────────────────────────────────────────────
+pandas==2.2.3
+numpy==2.2.1
+
+# ── Data validation ────────────────────────────────────────────────
+pydantic==2.10.3
+
+# ── Testing ────────────────────────────────────────────────────────
+pytest==8.3.4
+httpx==0.28.1          # async HTTP client used by FastAPI TestClient
+
+# ── Utilities ──────────────────────────────────────────────────────
+python-multipart==0.0.20   # required by FastAPI for form handling

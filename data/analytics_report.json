@@ -1,0 +1,1440 @@
+{
+  "meta": {
+    "generated_at": "2026-08-25T11:05:38.960407+00:00",
+    "total_orgs": 12,
+    "total_alerts": 9830,
+    "total_investigations": 7732,
+    "total_escalations": 1021,
+    "total_cases": 2478
+  },
+  "data_quality": {
+    "total_records_checked": 21073,
+    "issue_count": 0,
+    "tables_checked": [
+      "organizations",
+      "alerts",
+      "investigations",
+      "escalations",
+      "cases"
+    ],
+    "issues": []
+  },
+  "organizations": [
+    {
+      "organization_id": "ORG-001",
+      "name": "Aegis Financial",
+      "size": "small",
+      "peer_group": "small",
+      "metrics": {
+        "total_alerts": 750,
+        "critical_alerts": 158,
+        "high_alerts": 219,
+        "total_cases": 187,
+        "total_investigations": 608,
+        "total_escalations": 88,
+        "n_investigated": 608,
+        "n_critical_investigated": 138,
+        "investigation_rate": 0.8107,
+        "critical_investigation_rate": 0.8734,
+        "n_escalated": 88,
+        "escalation_rate": 0.2334,
+        "critical_escalation_rate": 0.2785,
+        "closure_without_investigation_rate": 0.1893,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1427.77,
+        "median_critical_closure_duration_min": 324.88,
+        "median_high_closure_duration_min": 959.33,
+        "median_investigation_duration_min": 259.91,
+        "alerts_per_active_asset": 16.6667,
+        "critical_alerts_per_active_asset": 3.5111,
+        "repeat_incident_groups": 5,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 45,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "small",
+        "alerts_per_active_asset_median": 19.0,
+        "alerts_per_active_asset_mean": 18.8646,
+        "alerts_per_active_asset_std": 0.9471,
+        "critical_alerts_per_active_asset_median": 4.0,
+        "critical_alerts_per_active_asset_mean": 3.8032,
+        "critical_alerts_per_active_asset_std": 0.3873,
+        "investigation_rate_median": 0.7145,
+        "investigation_rate_mean": 0.6697,
+        "investigation_rate_std": 0.1653,
+        "critical_investigation_rate_median": 0.3625,
+        "critical_investigation_rate_mean": 0.4982,
+        "critical_investigation_rate_std": 0.3281,
+        "escalation_rate_median": 0.1846,
+        "escalation_rate_mean": 0.1437,
+        "escalation_rate_std": 0.0826,
+        "median_closure_duration_min_median": 1398.64,
+        "median_closure_duration_min_mean": 971.42,
+        "median_closure_duration_min_std": 836.5093,
+        "median_critical_closure_duration_min_median": 276.7,
+        "median_critical_closure_duration_min_mean": 193.13,
+        "median_critical_closure_duration_min_std": 163.5858,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.253,
+        "pct_fast_closed_uninvestigated_std": 0.4382
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 16.6667,
+          "peer_median": 19.0,
+          "deviation_pct": -12.3,
+          "deviation_abs": -2.3333,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 3.5111,
+          "peer_median": 4.0,
+          "deviation_pct": -12.2,
+          "deviation_abs": -0.4889,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.8107,
+          "peer_median": 0.7145,
+          "deviation_pct": 13.5,
+          "deviation_abs": 0.0962,
+          "direction": "above"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.8734,
+          "peer_median": 0.3625,
+          "deviation_pct": 140.9,
+          "deviation_abs": 0.5109,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.2334,
+          "peer_median": 0.1846,
+          "deviation_pct": 26.4,
+          "deviation_abs": 0.0488,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1427.77,
+          "peer_median": 1398.64,
+          "deviation_pct": 2.1,
+          "deviation_abs": 29.13,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 324.88,
+          "peer_median": 276.7,
+          "deviation_pct": 17.4,
+          "deviation_abs": 48.18,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-002",
+      "name": "Bastion Energy",
+      "size": "small",
+      "peer_group": "small",
+      "metrics": {
+        "total_alerts": 760,
+        "critical_alerts": 160,
+        "high_alerts": 224,
+        "total_cases": 190,
+        "total_investigations": 543,
+        "total_escalations": 76,
+        "n_investigated": 543,
+        "n_critical_investigated": 58,
+        "investigation_rate": 0.7145,
+        "critical_investigation_rate": 0.3625,
+        "n_escalated": 76,
+        "escalation_rate": 0.1979,
+        "critical_escalation_rate": 0.2313,
+        "closure_without_investigation_rate": 0.2863,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1398.64,
+        "median_critical_closure_duration_min": 276.7,
+        "median_high_closure_duration_min": 931.83,
+        "median_investigation_duration_min": 242.45,
+        "alerts_per_active_asset": 19.0,
+        "critical_alerts_per_active_asset": 4.0,
+        "repeat_incident_groups": 8,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 40,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "small",
+        "alerts_per_active_asset_median": 17.8571,
+        "alerts_per_active_asset_mean": 18.0869,
+        "alerts_per_active_asset_std": 1.5479,
+        "critical_alerts_per_active_asset_median": 3.5111,
+        "critical_alerts_per_active_asset_mean": 3.6403,
+        "critical_alerts_per_active_asset_std": 0.3653,
+        "investigation_rate_median": 0.808,
+        "investigation_rate_mean": 0.7018,
+        "investigation_rate_std": 0.1863,
+        "critical_investigation_rate_median": 0.8723,
+        "critical_investigation_rate_mean": 0.6685,
+        "critical_investigation_rate_std": 0.354,
+        "escalation_rate_median": 0.1846,
+        "escalation_rate_mean": 0.1556,
+        "escalation_rate_std": 0.0957,
+        "median_closure_duration_min_median": 1427.77,
+        "median_closure_duration_min_mean": 981.13,
+        "median_closure_duration_min_std": 844.0827,
+        "median_critical_closure_duration_min_median": 298.05,
+        "median_critical_closure_duration_min_mean": 209.19,
+        "median_critical_closure_duration_min_std": 177.6527,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.253,
+        "pct_fast_closed_uninvestigated_std": 0.4382
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 19.0,
+          "peer_median": 17.8571,
+          "deviation_pct": 6.4,
+          "deviation_abs": 1.1429,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 4.0,
+          "peer_median": 3.5111,
+          "deviation_pct": 13.9,
+          "deviation_abs": 0.4889,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.7145,
+          "peer_median": 0.808,
+          "deviation_pct": -11.6,
+          "deviation_abs": -0.0935,
+          "direction": "below"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.3625,
+          "peer_median": 0.8723,
+          "deviation_pct": -58.4,
+          "deviation_abs": -0.5098,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.1979,
+          "peer_median": 0.1846,
+          "deviation_pct": 7.2,
+          "deviation_abs": 0.0133,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1398.64,
+          "peer_median": 1427.77,
+          "deviation_pct": -2.0,
+          "deviation_abs": -29.13,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 276.7,
+          "peer_median": 298.05,
+          "deviation_pct": -7.2,
+          "deviation_abs": -21.35,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-003",
+      "name": "Citadel Health",
+      "size": "small",
+      "peer_group": "small",
+      "metrics": {
+        "total_alerts": 750,
+        "critical_alerts": 154,
+        "high_alerts": 236,
+        "total_cases": 187,
+        "total_investigations": 365,
+        "total_escalations": 19,
+        "n_investigated": 365,
+        "n_critical_investigated": 40,
+        "investigation_rate": 0.4867,
+        "critical_investigation_rate": 0.2597,
+        "n_escalated": 19,
+        "escalation_rate": 0.0487,
+        "critical_escalation_rate": 0.026,
+        "closure_without_investigation_rate": 0.5128,
+        "pct_fast_closed_uninvestigated": 0.759,
+        "median_closure_duration_min": 7.57,
+        "median_critical_closure_duration_min": 4.64,
+        "median_high_closure_duration_min": 5.25,
+        "median_investigation_duration_min": 154.18,
+        "alerts_per_active_asset": 19.7368,
+        "critical_alerts_per_active_asset": 4.0526,
+        "repeat_incident_groups": 6,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 38,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "small",
+        "alerts_per_active_asset_median": 17.8571,
+        "alerts_per_active_asset_mean": 17.8413,
+        "alerts_per_active_asset_std": 1.1667,
+        "critical_alerts_per_active_asset_median": 3.5111,
+        "critical_alerts_per_active_asset_mean": 3.6227,
+        "critical_alerts_per_active_asset_std": 0.3357,
+        "investigation_rate_median": 0.808,
+        "investigation_rate_mean": 0.7777,
+        "investigation_rate_std": 0.0548,
+        "critical_investigation_rate_median": 0.8723,
+        "critical_investigation_rate_mean": 0.7027,
+        "critical_investigation_rate_std": 0.2947,
+        "escalation_rate_median": 0.1979,
+        "escalation_rate_mean": 0.2053,
+        "escalation_rate_std": 0.0252,
+        "median_closure_duration_min_median": 1427.77,
+        "median_closure_duration_min_mean": 1444.82,
+        "median_closure_duration_min_std": 56.6627,
+        "median_critical_closure_duration_min_median": 298.05,
+        "median_critical_closure_duration_min_mean": 299.8767,
+        "median_critical_closure_duration_min_std": 24.1419,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 19.7368,
+          "peer_median": 17.8571,
+          "deviation_pct": 10.5,
+          "deviation_abs": 1.8797,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 4.0526,
+          "peer_median": 3.5111,
+          "deviation_pct": 15.4,
+          "deviation_abs": 0.5415,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.4867,
+          "peer_median": 0.808,
+          "deviation_pct": -39.8,
+          "deviation_abs": -0.3213,
+          "direction": "below"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.2597,
+          "peer_median": 0.8723,
+          "deviation_pct": -70.2,
+          "deviation_abs": -0.6126,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.0487,
+          "peer_median": 0.1979,
+          "deviation_pct": -75.4,
+          "deviation_abs": -0.1492,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 7.57,
+          "peer_median": 1427.77,
+          "deviation_pct": -99.5,
+          "deviation_abs": -1420.2,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 4.64,
+          "peer_median": 298.05,
+          "deviation_pct": -98.4,
+          "deviation_abs": -293.41,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.759,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-004",
+      "name": "Dagger Transport",
+      "size": "small",
+      "peer_group": "small",
+      "metrics": {
+        "total_alerts": 750,
+        "critical_alerts": 141,
+        "high_alerts": 222,
+        "total_cases": 211,
+        "total_investigations": 606,
+        "total_escalations": 67,
+        "n_investigated": 606,
+        "n_critical_investigated": 123,
+        "investigation_rate": 0.808,
+        "critical_investigation_rate": 0.8723,
+        "n_escalated": 67,
+        "escalation_rate": 0.1846,
+        "critical_escalation_rate": 0.1986,
+        "closure_without_investigation_rate": 0.193,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1508.05,
+        "median_critical_closure_duration_min": 298.05,
+        "median_high_closure_duration_min": 963.86,
+        "median_investigation_duration_min": 268.82,
+        "alerts_per_active_asset": 17.8571,
+        "critical_alerts_per_active_asset": 3.3571,
+        "repeat_incident_groups": 11,
+        "repeat_groups_without_remediation": 8
+      },
+      "active_asset_count": 42,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "small",
+        "alerts_per_active_asset_median": 19.0,
+        "alerts_per_active_asset_mean": 18.4678,
+        "alerts_per_active_asset_std": 1.6027,
+        "critical_alerts_per_active_asset_median": 4.0,
+        "critical_alerts_per_active_asset_mean": 3.8546,
+        "critical_alerts_per_active_asset_std": 0.2986,
+        "investigation_rate_median": 0.7145,
+        "investigation_rate_mean": 0.6706,
+        "investigation_rate_std": 0.1664,
+        "critical_investigation_rate_median": 0.3625,
+        "critical_investigation_rate_mean": 0.4985,
+        "critical_investigation_rate_std": 0.3287,
+        "escalation_rate_median": 0.1979,
+        "escalation_rate_mean": 0.16,
+        "escalation_rate_std": 0.098,
+        "median_closure_duration_min_median": 1398.64,
+        "median_closure_duration_min_mean": 944.66,
+        "median_closure_duration_min_std": 811.6744,
+        "median_critical_closure_duration_min_median": 276.7,
+        "median_critical_closure_duration_min_mean": 202.0733,
+        "median_critical_closure_duration_min_std": 172.671,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.253,
+        "pct_fast_closed_uninvestigated_std": 0.4382
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 17.8571,
+          "peer_median": 19.0,
+          "deviation_pct": -6.0,
+          "deviation_abs": -1.1429,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 3.3571,
+          "peer_median": 4.0,
+          "deviation_pct": -16.1,
+          "deviation_abs": -0.6429,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.808,
+          "peer_median": 0.7145,
+          "deviation_pct": 13.1,
+          "deviation_abs": 0.0935,
+          "direction": "above"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.8723,
+          "peer_median": 0.3625,
+          "deviation_pct": 140.6,
+          "deviation_abs": 0.5098,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.1846,
+          "peer_median": 0.1979,
+          "deviation_pct": -6.7,
+          "deviation_abs": -0.0133,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1508.05,
+          "peer_median": 1398.64,
+          "deviation_pct": 7.8,
+          "deviation_abs": 109.41,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 298.05,
+          "peer_median": 276.7,
+          "deviation_pct": 7.7,
+          "deviation_abs": 21.35,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-005",
+      "name": "Eagle Telecom",
+      "size": "medium",
+      "peer_group": "medium",
+      "metrics": {
+        "total_alerts": 1000,
+        "critical_alerts": 205,
+        "high_alerts": 320,
+        "total_cases": 250,
+        "total_investigations": 815,
+        "total_escalations": 122,
+        "n_investigated": 815,
+        "n_critical_investigated": 189,
+        "investigation_rate": 0.815,
+        "critical_investigation_rate": 0.922,
+        "n_escalated": 122,
+        "escalation_rate": 0.2324,
+        "critical_escalation_rate": 0.2488,
+        "closure_without_investigation_rate": 0.1855,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1355.96,
+        "median_critical_closure_duration_min": 319.55,
+        "median_high_closure_duration_min": 972.75,
+        "median_investigation_duration_min": 270.1,
+        "alerts_per_active_asset": 8.3333,
+        "critical_alerts_per_active_asset": 1.7083,
+        "repeat_incident_groups": 1,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 120,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "medium",
+        "alerts_per_active_asset_median": 9.0,
+        "alerts_per_active_asset_mean": 9.1049,
+        "alerts_per_active_asset_std": 0.4705,
+        "critical_alerts_per_active_asset_median": 1.7826,
+        "critical_alerts_per_active_asset_mean": 1.8652,
+        "critical_alerts_per_active_asset_std": 0.193,
+        "investigation_rate_median": 0.8141,
+        "investigation_rate_mean": 0.814,
+        "investigation_rate_std": 0.0069,
+        "critical_investigation_rate_median": 0.9158,
+        "critical_investigation_rate_mean": 0.9136,
+        "critical_investigation_rate_std": 0.0056,
+        "escalation_rate_median": 0.2149,
+        "escalation_rate_mean": 0.2211,
+        "escalation_rate_std": 0.0146,
+        "median_closure_duration_min_median": 1489.1,
+        "median_closure_duration_min_mean": 1468.6133,
+        "median_closure_duration_min_std": 83.4577,
+        "median_critical_closure_duration_min_median": 295.4,
+        "median_critical_closure_duration_min_mean": 293.4533,
+        "median_critical_closure_duration_min_std": 14.697,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 8.3333,
+          "peer_median": 9.0,
+          "deviation_pct": -7.4,
+          "deviation_abs": -0.6667,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 1.7083,
+          "peer_median": 1.7826,
+          "deviation_pct": -4.2,
+          "deviation_abs": -0.0743,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.815,
+          "peer_median": 0.8141,
+          "deviation_pct": 0.1,
+          "deviation_abs": 0.0009,
+          "direction": "above"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.922,
+          "peer_median": 0.9158,
+          "deviation_pct": 0.7,
+          "deviation_abs": 0.0062,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.2324,
+          "peer_median": 0.2149,
+          "deviation_pct": 8.1,
+          "deviation_abs": 0.0175,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1355.96,
+          "peer_median": 1489.1,
+          "deviation_pct": -8.9,
+          "deviation_abs": -133.14,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 319.55,
+          "peer_median": 295.4,
+          "deviation_pct": 8.2,
+          "deviation_abs": 24.15,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-006",
+      "name": "Falcon Finance",
+      "size": "medium",
+      "peer_group": "medium",
+      "metrics": {
+        "total_alerts": 990,
+        "critical_alerts": 190,
+        "high_alerts": 294,
+        "total_cases": 247,
+        "total_investigations": 806,
+        "total_escalations": 104,
+        "n_investigated": 806,
+        "n_critical_investigated": 174,
+        "investigation_rate": 0.8141,
+        "critical_investigation_rate": 0.9158,
+        "n_escalated": 104,
+        "escalation_rate": 0.2149,
+        "critical_escalation_rate": 0.2684,
+        "closure_without_investigation_rate": 0.1853,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1489.1,
+        "median_critical_closure_duration_min": 295.4,
+        "median_high_closure_duration_min": 925.05,
+        "median_investigation_duration_min": 262.34,
+        "alerts_per_active_asset": 9.0,
+        "critical_alerts_per_active_asset": 1.7273,
+        "repeat_incident_groups": 4,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 110,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "medium",
+        "alerts_per_active_asset_median": 8.6957,
+        "alerts_per_active_asset_mean": 8.8827,
+        "alerts_per_active_asset_std": 0.6629,
+        "critical_alerts_per_active_asset_median": 1.7826,
+        "critical_alerts_per_active_asset_mean": 1.8589,
+        "critical_alerts_per_active_asset_std": 0.1999,
+        "investigation_rate_median": 0.815,
+        "investigation_rate_mean": 0.8143,
+        "investigation_rate_std": 0.0069,
+        "critical_investigation_rate_median": 0.9178,
+        "critical_investigation_rate_mean": 0.9157,
+        "critical_investigation_rate_std": 0.0076,
+        "escalation_rate_median": 0.2324,
+        "escalation_rate_mean": 0.227,
+        "escalation_rate_std": 0.0143,
+        "median_closure_duration_min_median": 1376.82,
+        "median_closure_duration_min_mean": 1424.2333,
+        "median_closure_duration_min_std": 100.729,
+        "median_critical_closure_duration_min_median": 307.08,
+        "median_critical_closure_duration_min_mean": 301.5033,
+        "median_critical_closure_duration_min_std": 21.3874,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 9.0,
+          "peer_median": 8.6957,
+          "deviation_pct": 3.5,
+          "deviation_abs": 0.3043,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 1.7273,
+          "peer_median": 1.7826,
+          "deviation_pct": -3.1,
+          "deviation_abs": -0.0553,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.8141,
+          "peer_median": 0.815,
+          "deviation_pct": -0.1,
+          "deviation_abs": -0.0009,
+          "direction": "below"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9158,
+          "peer_median": 0.9178,
+          "deviation_pct": -0.2,
+          "deviation_abs": -0.002,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.2149,
+          "peer_median": 0.2324,
+          "deviation_pct": -7.5,
+          "deviation_abs": -0.0175,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1489.1,
+          "peer_median": 1376.82,
+          "deviation_pct": 8.2,
+          "deviation_abs": 112.28,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 295.4,
+          "peer_median": 307.08,
+          "deviation_pct": -3.8,
+          "deviation_abs": -11.68,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-007",
+      "name": "Garuda Energy",
+      "size": "medium",
+      "peer_group": "medium",
+      "metrics": {
+        "total_alerts": 1010,
+        "critical_alerts": 219,
+        "high_alerts": 273,
+        "total_cases": 252,
+        "total_investigations": 829,
+        "total_escalations": 117,
+        "n_investigated": 829,
+        "n_critical_investigated": 201,
+        "investigation_rate": 0.8208,
+        "critical_investigation_rate": 0.9178,
+        "n_escalated": 117,
+        "escalation_rate": 0.2378,
+        "critical_escalation_rate": 0.2374,
+        "closure_without_investigation_rate": 0.1771,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1539.92,
+        "median_critical_closure_duration_min": 307.08,
+        "median_high_closure_duration_min": 963.03,
+        "median_investigation_duration_min": 260.68,
+        "alerts_per_active_asset": 9.619,
+        "critical_alerts_per_active_asset": 2.0857,
+        "repeat_incident_groups": 5,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 105,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "medium",
+        "alerts_per_active_asset_median": 8.6957,
+        "alerts_per_active_asset_mean": 8.6763,
+        "alerts_per_active_asset_std": 0.3338,
+        "critical_alerts_per_active_asset_median": 1.7273,
+        "critical_alerts_per_active_asset_mean": 1.7394,
+        "critical_alerts_per_active_asset_std": 0.0386,
+        "investigation_rate_median": 0.8141,
+        "investigation_rate_mean": 0.812,
+        "investigation_rate_std": 0.0044,
+        "critical_investigation_rate_median": 0.9158,
+        "critical_investigation_rate_mean": 0.915,
+        "critical_investigation_rate_std": 0.0074,
+        "escalation_rate_median": 0.2149,
+        "escalation_rate_mean": 0.2193,
+        "escalation_rate_std": 0.0115,
+        "median_closure_duration_min_median": 1376.82,
+        "median_closure_duration_min_mean": 1407.2933,
+        "median_closure_duration_min_std": 71.6103,
+        "median_critical_closure_duration_min_median": 295.4,
+        "median_critical_closure_duration_min_mean": 297.61,
+        "median_critical_closure_duration_min_std": 20.9227,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 9.619,
+          "peer_median": 8.6957,
+          "deviation_pct": 10.6,
+          "deviation_abs": 0.9233,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 2.0857,
+          "peer_median": 1.7273,
+          "deviation_pct": 20.7,
+          "deviation_abs": 0.3584,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.8208,
+          "peer_median": 0.8141,
+          "deviation_pct": 0.8,
+          "deviation_abs": 0.0067,
+          "direction": "above"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9178,
+          "peer_median": 0.9158,
+          "deviation_pct": 0.2,
+          "deviation_abs": 0.002,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.2378,
+          "peer_median": 0.2149,
+          "deviation_pct": 10.7,
+          "deviation_abs": 0.0229,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1539.92,
+          "peer_median": 1376.82,
+          "deviation_pct": 11.8,
+          "deviation_abs": 163.1,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 307.08,
+          "peer_median": 295.4,
+          "deviation_pct": 4.0,
+          "deviation_abs": 11.68,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-008",
+      "name": "Hawk Health",
+      "size": "medium",
+      "peer_group": "medium",
+      "metrics": {
+        "total_alerts": 1000,
+        "critical_alerts": 205,
+        "high_alerts": 317,
+        "total_cases": 250,
+        "total_investigations": 807,
+        "total_escalations": 110,
+        "n_investigated": 807,
+        "n_critical_investigated": 186,
+        "investigation_rate": 0.807,
+        "critical_investigation_rate": 0.9073,
+        "n_escalated": 110,
+        "escalation_rate": 0.2107,
+        "critical_escalation_rate": 0.2341,
+        "closure_without_investigation_rate": 0.1935,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1376.82,
+        "median_critical_closure_duration_min": 277.88,
+        "median_high_closure_duration_min": 996.08,
+        "median_investigation_duration_min": 249.34,
+        "alerts_per_active_asset": 8.6957,
+        "critical_alerts_per_active_asset": 1.7826,
+        "repeat_incident_groups": 3,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 115,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "medium",
+        "alerts_per_active_asset_median": 9.0,
+        "alerts_per_active_asset_mean": 8.9841,
+        "alerts_per_active_asset_std": 0.643,
+        "critical_alerts_per_active_asset_median": 1.7273,
+        "critical_alerts_per_active_asset_mean": 1.8404,
+        "critical_alerts_per_active_asset_std": 0.2126,
+        "investigation_rate_median": 0.815,
+        "investigation_rate_mean": 0.8166,
+        "investigation_rate_std": 0.0036,
+        "critical_investigation_rate_median": 0.9178,
+        "critical_investigation_rate_mean": 0.9185,
+        "critical_investigation_rate_std": 0.0032,
+        "escalation_rate_median": 0.2324,
+        "escalation_rate_mean": 0.2284,
+        "escalation_rate_std": 0.012,
+        "median_closure_duration_min_median": 1489.1,
+        "median_closure_duration_min_mean": 1461.66,
+        "median_closure_duration_min_std": 95.0002,
+        "median_critical_closure_duration_min_median": 307.08,
+        "median_critical_closure_duration_min_mean": 307.3433,
+        "median_critical_closure_duration_min_std": 12.0772,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 8.6957,
+          "peer_median": 9.0,
+          "deviation_pct": -3.4,
+          "deviation_abs": -0.3043,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 1.7826,
+          "peer_median": 1.7273,
+          "deviation_pct": 3.2,
+          "deviation_abs": 0.0553,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.807,
+          "peer_median": 0.815,
+          "deviation_pct": -1.0,
+          "deviation_abs": -0.008,
+          "direction": "below"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9073,
+          "peer_median": 0.9178,
+          "deviation_pct": -1.1,
+          "deviation_abs": -0.0105,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.2107,
+          "peer_median": 0.2324,
+          "deviation_pct": -9.3,
+          "deviation_abs": -0.0217,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1376.82,
+          "peer_median": 1489.1,
+          "deviation_pct": -7.5,
+          "deviation_abs": -112.28,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 277.88,
+          "peer_median": 307.08,
+          "deviation_pct": -9.5,
+          "deviation_abs": -29.2,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-009",
+      "name": "Ironclad Telecom",
+      "size": "large",
+      "peer_group": "large",
+      "metrics": {
+        "total_alerts": 900,
+        "critical_alerts": 204,
+        "high_alerts": 244,
+        "total_cases": 225,
+        "total_investigations": 755,
+        "total_escalations": 101,
+        "n_investigated": 755,
+        "n_critical_investigated": 189,
+        "investigation_rate": 0.8389,
+        "critical_investigation_rate": 0.9265,
+        "n_escalated": 101,
+        "escalation_rate": 0.2254,
+        "critical_escalation_rate": 0.25,
+        "closure_without_investigation_rate": 0.1626,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1431.72,
+        "median_critical_closure_duration_min": 300.6,
+        "median_high_closure_duration_min": 967.2,
+        "median_investigation_duration_min": 250.61,
+        "alerts_per_active_asset": 3.2143,
+        "critical_alerts_per_active_asset": 0.7286,
+        "repeat_incident_groups": 0,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 280,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "large",
+        "alerts_per_active_asset_median": 3.069,
+        "alerts_per_active_asset_mean": 2.3158,
+        "alerts_per_active_asset_std": 1.6309,
+        "critical_alerts_per_active_asset_median": 0.5966,
+        "critical_alerts_per_active_asset_mean": 0.4437,
+        "critical_alerts_per_active_asset_std": 0.3217,
+        "investigation_rate_median": 0.8385,
+        "investigation_rate_mean": 0.8422,
+        "investigation_rate_std": 0.0229,
+        "critical_investigation_rate_median": 0.9086,
+        "critical_investigation_rate_mean": 0.8926,
+        "critical_investigation_rate_std": 0.0372,
+        "escalation_rate_median": 0.2319,
+        "escalation_rate_mean": 0.2434,
+        "escalation_rate_std": 0.0242,
+        "median_closure_duration_min_median": 1486.48,
+        "median_closure_duration_min_mean": 1535.6633,
+        "median_closure_duration_min_std": 91.5739,
+        "median_critical_closure_duration_min_median": 290.68,
+        "median_critical_closure_duration_min_mean": 290.1633,
+        "median_critical_closure_duration_min_std": 9.126,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 3.2143,
+          "peer_median": 3.069,
+          "deviation_pct": 4.7,
+          "deviation_abs": 0.1453,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 0.7286,
+          "peer_median": 0.5966,
+          "deviation_pct": 22.1,
+          "deviation_abs": 0.132,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.8389,
+          "peer_median": 0.8385,
+          "deviation_pct": 0.0,
+          "deviation_abs": 0.0004,
+          "direction": "at"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9265,
+          "peer_median": 0.9086,
+          "deviation_pct": 2.0,
+          "deviation_abs": 0.0179,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.2254,
+          "peer_median": 0.2319,
+          "deviation_pct": -2.8,
+          "deviation_abs": -0.0065,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1431.72,
+          "peer_median": 1486.48,
+          "deviation_pct": -3.7,
+          "deviation_abs": -54.76,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 300.6,
+          "peer_median": 290.68,
+          "deviation_pct": 3.4,
+          "deviation_abs": 9.92,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-010",
+      "name": "Javelin Finance",
+      "size": "large",
+      "peer_group": "large",
+      "metrics": {
+        "total_alerts": 910,
+        "critical_alerts": 175,
+        "high_alerts": 274,
+        "total_cases": 227,
+        "total_investigations": 763,
+        "total_escalations": 102,
+        "n_investigated": 763,
+        "n_critical_investigated": 159,
+        "investigation_rate": 0.8385,
+        "critical_investigation_rate": 0.9086,
+        "n_escalated": 102,
+        "escalation_rate": 0.2272,
+        "critical_escalation_rate": 0.2571,
+        "closure_without_investigation_rate": 0.1608,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1479.19,
+        "median_critical_closure_duration_min": 290.68,
+        "median_high_closure_duration_min": 954.33,
+        "median_investigation_duration_min": 250.73,
+        "alerts_per_active_asset": 3.434,
+        "critical_alerts_per_active_asset": 0.6604,
+        "repeat_incident_groups": 0,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 265,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "large",
+        "alerts_per_active_asset_median": 3.069,
+        "alerts_per_active_asset_mean": 2.2426,
+        "alerts_per_active_asset_std": 1.559,
+        "critical_alerts_per_active_asset_median": 0.5966,
+        "critical_alerts_per_active_asset_mean": 0.4664,
+        "critical_alerts_per_active_asset_std": 0.3461,
+        "investigation_rate_median": 0.8389,
+        "investigation_rate_mean": 0.8423,
+        "investigation_rate_std": 0.0229,
+        "critical_investigation_rate_median": 0.9191,
+        "critical_investigation_rate_mean": 0.8985,
+        "critical_investigation_rate_std": 0.0422,
+        "escalation_rate_median": 0.2319,
+        "escalation_rate_mean": 0.2428,
+        "escalation_rate_std": 0.0248,
+        "median_closure_duration_min_median": 1486.48,
+        "median_closure_duration_min_mean": 1519.84,
+        "median_closure_duration_min_std": 108.7093,
+        "median_critical_closure_duration_min_median": 299.02,
+        "median_critical_closure_duration_min_mean": 293.47,
+        "median_critical_closure_duration_min_std": 11.0096,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 3.434,
+          "peer_median": 3.069,
+          "deviation_pct": 11.9,
+          "deviation_abs": 0.365,
+          "direction": "above"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 0.6604,
+          "peer_median": 0.5966,
+          "deviation_pct": 10.7,
+          "deviation_abs": 0.0638,
+          "direction": "above"
+        },
+        "investigation_rate": {
+          "org_value": 0.8385,
+          "peer_median": 0.8389,
+          "deviation_pct": -0.0,
+          "deviation_abs": -0.0004,
+          "direction": "at"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9086,
+          "peer_median": 0.9191,
+          "deviation_pct": -1.1,
+          "deviation_abs": -0.0105,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.2272,
+          "peer_median": 0.2319,
+          "deviation_pct": -2.0,
+          "deviation_abs": -0.0047,
+          "direction": "below"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1479.19,
+          "peer_median": 1486.48,
+          "deviation_pct": -0.5,
+          "deviation_abs": -7.29,
+          "direction": "below"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 290.68,
+          "peer_median": 299.02,
+          "deviation_pct": -2.8,
+          "deviation_abs": -8.34,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-011",
+      "name": "Kestrel Energy",
+      "size": "large",
+      "peer_group": "large",
+      "metrics": {
+        "total_alerts": 890,
+        "critical_alerts": 173,
+        "high_alerts": 254,
+        "total_cases": 222,
+        "total_investigations": 731,
+        "total_escalations": 99,
+        "n_investigated": 731,
+        "n_critical_investigated": 159,
+        "investigation_rate": 0.8213,
+        "critical_investigation_rate": 0.9191,
+        "n_escalated": 99,
+        "escalation_rate": 0.2319,
+        "critical_escalation_rate": 0.2197,
+        "closure_without_investigation_rate": 0.1787,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1641.32,
+        "median_critical_closure_duration_min": 299.02,
+        "median_high_closure_duration_min": 952.53,
+        "median_investigation_duration_min": 247.82,
+        "alerts_per_active_asset": 3.069,
+        "critical_alerts_per_active_asset": 0.5966,
+        "repeat_incident_groups": 1,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 290,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "large",
+        "alerts_per_active_asset_median": 3.2143,
+        "alerts_per_active_asset_mean": 2.3642,
+        "alerts_per_active_asset_std": 1.6662,
+        "critical_alerts_per_active_asset_median": 0.6604,
+        "critical_alerts_per_active_asset_mean": 0.4877,
+        "critical_alerts_per_active_asset_std": 0.3598,
+        "investigation_rate_median": 0.8389,
+        "investigation_rate_mean": 0.848,
+        "investigation_rate_std": 0.0162,
+        "critical_investigation_rate_median": 0.9086,
+        "critical_investigation_rate_mean": 0.895,
+        "critical_investigation_rate_std": 0.04,
+        "escalation_rate_median": 0.2272,
+        "escalation_rate_mean": 0.2413,
+        "escalation_rate_std": 0.0259,
+        "median_closure_duration_min_median": 1479.19,
+        "median_closure_duration_min_mean": 1465.7967,
+        "median_closure_duration_min_std": 29.7355,
+        "median_critical_closure_duration_min_median": 290.68,
+        "median_critical_closure_duration_min_mean": 290.69,
+        "median_critical_closure_duration_min_std": 9.905,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 3.069,
+          "peer_median": 3.2143,
+          "deviation_pct": -4.5,
+          "deviation_abs": -0.1453,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 0.5966,
+          "peer_median": 0.6604,
+          "deviation_pct": -9.7,
+          "deviation_abs": -0.0638,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.8213,
+          "peer_median": 0.8389,
+          "deviation_pct": -2.1,
+          "deviation_abs": -0.0176,
+          "direction": "below"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.9191,
+          "peer_median": 0.9086,
+          "deviation_pct": 1.2,
+          "deviation_abs": 0.0105,
+          "direction": "above"
+        },
+        "escalation_rate": {
+          "org_value": 0.2319,
+          "peer_median": 0.2272,
+          "deviation_pct": 2.1,
+          "deviation_abs": 0.0047,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1641.32,
+          "peer_median": 1479.19,
+          "deviation_pct": 11.0,
+          "deviation_abs": 162.13,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 299.02,
+          "peer_median": 290.68,
+          "deviation_pct": 2.9,
+          "deviation_abs": 8.34,
+          "direction": "above"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    },
+    {
+      "organization_id": "ORG-012",
+      "name": "Lynx Transport",
+      "size": "large",
+      "peer_group": "large",
+      "metrics": {
+        "total_alerts": 120,
+        "critical_alerts": 20,
+        "high_alerts": 39,
+        "total_cases": 30,
+        "total_investigations": 104,
+        "total_escalations": 16,
+        "n_investigated": 104,
+        "n_critical_investigated": 17,
+        "investigation_rate": 0.8667,
+        "critical_investigation_rate": 0.85,
+        "n_escalated": 16,
+        "escalation_rate": 0.2712,
+        "critical_escalation_rate": 0.45,
+        "closure_without_investigation_rate": 0.1345,
+        "pct_fast_closed_uninvestigated": 0.0,
+        "median_closure_duration_min": 1486.48,
+        "median_critical_closure_duration_min": 280.79,
+        "median_high_closure_duration_min": 898.82,
+        "median_investigation_duration_min": 273.75,
+        "alerts_per_active_asset": 0.4444,
+        "critical_alerts_per_active_asset": 0.0741,
+        "repeat_incident_groups": 0,
+        "repeat_groups_without_remediation": 0
+      },
+      "active_asset_count": 270,
+      "peer_baseline": {
+        "n_peers": 3,
+        "peer_group": "large",
+        "alerts_per_active_asset_median": 3.2143,
+        "alerts_per_active_asset_mean": 3.2391,
+        "alerts_per_active_asset_std": 0.1838,
+        "critical_alerts_per_active_asset_median": 0.6604,
+        "critical_alerts_per_active_asset_mean": 0.6619,
+        "critical_alerts_per_active_asset_std": 0.066,
+        "investigation_rate_median": 0.8385,
+        "investigation_rate_mean": 0.8329,
+        "investigation_rate_std": 0.01,
+        "critical_investigation_rate_median": 0.9191,
+        "critical_investigation_rate_mean": 0.9181,
+        "critical_investigation_rate_std": 0.009,
+        "escalation_rate_median": 0.2272,
+        "escalation_rate_mean": 0.2282,
+        "escalation_rate_std": 0.0034,
+        "median_closure_duration_min_median": 1479.19,
+        "median_closure_duration_min_mean": 1517.41,
+        "median_closure_duration_min_std": 109.9028,
+        "median_critical_closure_duration_min_median": 299.02,
+        "median_critical_closure_duration_min_mean": 296.7667,
+        "median_critical_closure_duration_min_std": 5.3301,
+        "pct_fast_closed_uninvestigated_median": 0.0,
+        "pct_fast_closed_uninvestigated_mean": 0.0,
+        "pct_fast_closed_uninvestigated_std": 0.0
+      },
+      "peer_deviations": {
+        "alerts_per_active_asset": {
+          "org_value": 0.4444,
+          "peer_median": 3.2143,
+          "deviation_pct": -86.2,
+          "deviation_abs": -2.7699,
+          "direction": "below"
+        },
+        "critical_alerts_per_active_asset": {
+          "org_value": 0.0741,
+          "peer_median": 0.6604,
+          "deviation_pct": -88.8,
+          "deviation_abs": -0.5863,
+          "direction": "below"
+        },
+        "investigation_rate": {
+          "org_value": 0.8667,
+          "peer_median": 0.8385,
+          "deviation_pct": 3.4,
+          "deviation_abs": 0.0282,
+          "direction": "above"
+        },
+        "critical_investigation_rate": {
+          "org_value": 0.85,
+          "peer_median": 0.9191,
+          "deviation_pct": -7.5,
+          "deviation_abs": -0.0691,
+          "direction": "below"
+        },
+        "escalation_rate": {
+          "org_value": 0.2712,
+          "peer_median": 0.2272,
+          "deviation_pct": 19.4,
+          "deviation_abs": 0.044,
+          "direction": "above"
+        },
+        "median_closure_duration_min": {
+          "org_value": 1486.48,
+          "peer_median": 1479.19,
+          "deviation_pct": 0.5,
+          "deviation_abs": 7.29,
+          "direction": "above"
+        },
+        "median_critical_closure_duration_min": {
+          "org_value": 280.79,
+          "peer_median": 299.02,
+          "deviation_pct": -6.1,
+          "deviation_abs": -18.23,
+          "direction": "below"
+        },
+        "pct_fast_closed_uninvestigated": {
+          "org_value": 0.0,
+          "peer_median": 0.0,
+          "deviation_pct": null,
+          "deviation_abs": null,
+          "direction": null
+        }
+      }
+    }
+  ]
+}

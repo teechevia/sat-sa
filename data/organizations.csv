@@ -1,0 +1,13 @@
+organization_id,name,size,sector,peer_group,active_asset_count
+ORG-001,Aegis Financial,small,finance,small,45
+ORG-002,Bastion Energy,small,energy,small,40
+ORG-003,Citadel Health,small,health,small,38
+ORG-004,Dagger Transport,small,transport,small,42
+ORG-005,Eagle Telecom,medium,telecom,medium,120
+ORG-006,Falcon Finance,medium,finance,medium,110
+ORG-007,Garuda Energy,medium,energy,medium,105
+ORG-008,Hawk Health,medium,health,medium,115
+ORG-009,Ironclad Telecom,large,telecom,large,280
+ORG-010,Javelin Finance,large,finance,large,265
+ORG-011,Kestrel Energy,large,energy,large,290
+ORG-012,Lynx Transport,large,transport,large,270
